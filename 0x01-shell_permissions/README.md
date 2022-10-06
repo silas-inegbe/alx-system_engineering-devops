@@ -8,3 +8,8 @@ Task 6 - add execute permission to the owner and the group owner, and read permi
 Task 7- add execution permission to the owner, the group owner and the other users, to the file hello
 Task 8 - change file permision to owner no permissions, group no permissions, other all permissions
 Task 9 - change permission to -rwxr-x-wx
+Task 10- set mode of the file hello the same as ollehs mode >> README.md
+
+
+
+echo Task 10- set mode of the file hello the same as ollehs mode

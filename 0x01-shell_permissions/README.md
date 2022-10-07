@@ -13,3 +13,4 @@ Task 10- set mode of the file hello the same as ollehs mode >> README.md
 
 
 echo Task 10- set mode of the file hello the same as ollehs mode
+Task 11- add execute permission to all subdirectories of the current directory for the owner, the group owner and all other users

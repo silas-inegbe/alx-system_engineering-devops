@@ -17,3 +17,4 @@ Task 11- add execute permission to all subdirectories of the current directory f
 Task 12- create a directory called my_dir with permissions 751 in the working directory
 Task 13- change the group owner to school for the file hello
 Task 14- change the owner to vincent and the group owner to staff for all the files and directories 
+Task 15- change the owner and the group owner of _hello to vincent and staff respectively

@@ -20,3 +20,4 @@ One file per line
 
 Sorted from the newest to the oldest
 Task -13 Create a script that takes a list of words as input and prints only words that appear exactly once
+Task -14 Display lines containing the pattern “root” from the file /etc/passwd

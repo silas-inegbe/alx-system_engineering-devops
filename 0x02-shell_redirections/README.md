@@ -27,3 +27,4 @@ Task -17 Display all the lines in the file /etc/passwd that do not contain the p
 Task -18 Display all lines of the file /etc/ssh/sshd_config starting with a letter.
 Task -19 DReplace all characters A and c from input to Z and e respectively
 Task -20 Create a script that removes all letters c and C from input
+Task -21 Write a script that reverse its input

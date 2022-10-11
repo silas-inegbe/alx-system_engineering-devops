@@ -25,3 +25,6 @@ Task -12 Create a script that prints all possible combinations of two letters, e
 The output should be alpha ordered, starting with aa. Do not print oo
 
 Your script file should contain maximum 64 characters
+Task -13 Write a script that prints a number with two decimal places, followed by a new line.
+
+The number will be stored in the environment variable NUM

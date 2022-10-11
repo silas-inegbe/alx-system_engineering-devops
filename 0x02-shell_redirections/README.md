@@ -26,3 +26,4 @@ Task -16 Display lines containing the pattern “root” and 3 lines after them 
 Task -17 Display all the lines in the file /etc/passwd that do not contain the pattern (bin)
 Task -18 Display all lines of the file /etc/ssh/sshd_config starting with a letter.
 Task -19 DReplace all characters A and c from input to Z and e respectively
+Task -20 Create a script that removes all letters c and C from input

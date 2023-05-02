@@ -1,3 +1,6 @@
 #!/usr/bin/env bash
 
-ssh -i ~/.ssh/school ubuntu@34.138.32.248
+ssh-keygen -b 4096 -t rsa -f ./school -N "betty"
+
+echo "RSA key pair created successfully."
+

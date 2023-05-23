@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Using https://jsonplaceholder.typicode.com
-returns info about employee TODO
+gathers data from API and exports it to CSV file
 """
 import re
 import requests
@@ -18,15 +18,15 @@ if __name__ == '__main__':
             id = int(sys.argv[1])
             user_res = requests.get('{}/users/{}'.format(API, id)).json()
             todos_res = requests.get('{}/todos'.format(API)).json()
-            user_name = user_res.get('name')
+            user_name = user_res.get('username')
             todos = list(filter(lambda x: x.get('userId') == id, todos_res))
-            todos_done = list(filter(lambda x: x.get('completed'), todos))
-            print(
-                'Employee {} is done with tasks({}/{}):'.format(
-                    user_name,
-                    len(todos_done),
-                    len(todos)
-                )
-            )
-            for todo_done in todos_done:
-                print('\t {}'.format(todo_done.get('title')))
+            with open('{}.csv'.format(id), 'w') as file:
+                for todo in todos:
+                    file.write(
+                        '"{}","{}","{}","{}"\n'.format(
+                            id,
+                            user_name,
+                            todo.get('completed'),
+                            todo.get('title')
+                        )
+                    )
